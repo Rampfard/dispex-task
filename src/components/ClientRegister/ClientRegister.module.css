@@ -1,0 +1,17 @@
+.client-register {
+}
+
+.form {
+  margin-top: 1rem;
+}
+
+.form input {
+  margin-right: 1rem;
+}
+
+.controls {
+  max-width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+}

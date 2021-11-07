@@ -1,0 +1,40 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.input {
+  outline: none;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+.btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.controls {
+  margin-bottom: 0.5rem;
+}
+
+.content {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  background: #fff;
+  z-index: 1;
+  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+
+.active {
+  transform: rotate(90deg);
+}

@@ -1,0 +1,16 @@
+export const SET_STREETS = 'SET_STREETS';
+export const SET_HOUSES = 'SET_HOUSES';
+export const SET_FLATS = 'SET_FLATS';
+
+export const SET_SELECTED_STREET = 'SET_SELECTED_STREET';
+export const SET_SELECTED_HOUSE = 'SET_SELECTED_HOUSE';
+export const SET_SELECTED_FLAT = 'SET_SELECTED_FLAT';
+
+export const SET_CLIENTS = 'SET_CLIENTS';
+export const SET_SELECTED_CLIENT = 'SET_SELECTED_CLIENT';
+export const REMOVE_CLIENT = 'REMOVE_CLIENT';
+export const ADD_CLIENT = 'ADD_CLIENT';
+export const UPDATE_CLIENT = 'UPDATE_CLIENT';
+
+// ui types
+export const SET_REQUEST_STATUS = 'SET_REQUEST_STATUS';

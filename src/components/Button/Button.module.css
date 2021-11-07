@@ -1,0 +1,29 @@
+.btn {
+  outline: none;
+  padding: 0.5rem 1rem;
+  background-color: #1a73e8;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.2s ease-out;
+}
+
+.btn:hover {
+  background-color: #458ff0;
+}
+
+.ghost {
+  background: transparent;
+  border: 1px solid #808080;
+  color: #000;
+}
+
+.ghost:hover {
+  background-color: #1a73e8;
+  color: #fff;
+}
+
+.wide {
+  width: 100%;
+}
