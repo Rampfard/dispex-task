@@ -46,9 +46,12 @@ export const addClient = async (client) => {
   return response;
 };
 
+// В предоставленном API не было метода PUT или PATCH на обновление сущностей.
+// Поэтому я написал свой пример реализации с подобным методом.
+// Безусловно этот запрос скорее всего выбросит исключение, но я хотел бы показать что понимаю как это работает. 
 export const updateClient = async (client) => {
-  const response = await fetchData('/HousingStock​/client​', {
-    method: 'PUT',
+  const response = await fetchData(`/HousingStock​/client​/${client.id}`, {
+    method: 'PATCH',
     body: client,
   });
   return response;
